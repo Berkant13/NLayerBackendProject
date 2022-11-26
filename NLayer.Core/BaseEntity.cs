@@ -12,6 +12,6 @@ namespace NLayer.Core
         //Eğer foreign key olarak atamak istiyorsak [ForeignKey("entity_attribute")] olarak verebiliriz.
         public int Id { get; set; }
         public DateTime CreatedDate { get; set; }
-        public DateTime UpdatedDate { get; set; }
+        public DateTime? UpdatedDate { get; set; }
     }
 }
