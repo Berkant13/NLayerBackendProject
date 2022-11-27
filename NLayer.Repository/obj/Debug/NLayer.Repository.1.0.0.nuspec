@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NLayer.Repository</id>
+    <version>1.0.0</version>
+    <authors>NLayer.Repository</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="NLayer.Core" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Npgsql" version="7.0.0" exclude="Build,Analyzers" />
+        <dependency id="Npgsql.EntityFrameworkCore.PostgreSQL" version="7.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\berka\source\repos\NLayer.Core\NLayer.Repository\bin\Debug\net6.0\NLayer.Repository.runtimeconfig.json" target="lib\net6.0\NLayer.Repository.runtimeconfig.json" />
+    <file src="C:\Users\berka\source\repos\NLayer.Core\NLayer.Repository\bin\Debug\net6.0\NLayer.Repository.dll" target="lib\net6.0\NLayer.Repository.dll" />
+  </files>
+</package>

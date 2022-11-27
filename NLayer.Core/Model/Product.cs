@@ -12,7 +12,6 @@ namespace NLayer.Core.Model
         public string? ProductName { get; set; }
         public int Stock { get; set; }
         public decimal Price { get; set; }
-        //Foreign key
         public int CategoryID { get; set; }
         public Category? Category { get; set; }
         public ProductFeature? ProductFeature { get; set; }

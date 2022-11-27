@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "mNEH+u9sb2jg30RK5XvJc14EfuAPjiMZOOPp3k748gWPn1QOKHCLwh6OSbd+N65JS0Pg8J9Se4y4d1EY8TRM6Q==",
+  "dgSpecHash": "VI8Lp6uBY6mDoXxyLt0WB3Xfex7LPBn5SLLX1uX9yV6OZ+waC8zUyGU9Rm85thyYHqcTLuIH6+qa7VBXNYLEvw==",
   "success": true,
   "projectFilePath": "C:\\Users\\berka\\source\\repos\\NLayer.Core\\NLayer.Web\\NLayer.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\berka\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\berka\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\berka\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\berka\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\berka\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "C:\\Users\\berka\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0\\microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\berka\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.0\\microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",
