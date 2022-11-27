@@ -11,7 +11,7 @@ namespace NLayer.Core.Repositories
     {
         Task<T>GetByIdAsync(int id);
         //şuan sorgu atmaz sorguyu hazırlar ve memory de tutar biz buna ToList dediğimiz an veritabanına gider ve veririyi getirir.
-        IQueryable<T> GetAll(Expression<Func<T, bool>> expression);
+        IQueryable<T> GetAll();
 
         IQueryable<T> Where(Expression<Func<T, bool>> expression);
        
@@ -23,7 +23,7 @@ namespace NLayer.Core.Repositories
         
         void Update(T entity);
 
-        void Delete(T entity);
+        void Remove(T entity);
         
         void RemoveRange(IEnumerable<T> entities);
     }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0jTw1lIbKAaI0OX+YbxmsPpSqYptJNEvlvWQ4b5rgwLMXwe5KmrLa+yNmpXAnY9g5jcGZ9S1LrtwhUWWm5Zfsg==",
+  "dgSpecHash": "DZqQKhZPdXKBBI18mxMPWh1iTjvqB72XRFssmMNd53D0zuzTGOsdnVM6O+vbkoVzCpm4hqXGPL6V4oQllYkUWg==",
   "success": true,
   "projectFilePath": "C:\\Users\\berka\\source\\repos\\NLayer.Core\\NLayer.Caching\\NLayer.Caching.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,8 @@
     "C:\\Users\\berka\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\berka\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\berka\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\berka\\.nuget\\packages\\npgsql\\7.0.0\\npgsql.7.0.0.nupkg.sha512",
+    "C:\\Users\\berka\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.0\\npgsql.entityframeworkcore.postgresql.7.0.0.nupkg.sha512",
     "C:\\Users\\berka\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\berka\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\berka\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",

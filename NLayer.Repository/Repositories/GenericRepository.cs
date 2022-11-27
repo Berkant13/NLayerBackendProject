@@ -38,12 +38,12 @@ namespace NLayer.Repository.Repositories
             return await _dbSet.AnyAsync(expression);
         }
 
-        public void Delete(T entity)
+        public void Remove(T entity)
         {
             _dbSet.Remove(entity);
         }
 
-        public IQueryable<T> GetAll(Expression<Func<T, bool>> expression)
+        public IQueryable<T> GetAll()
         {
             //ef core datayı track etmemesini sağlıyor.
             return _dbSet.AsNoTracking().AsQueryable();

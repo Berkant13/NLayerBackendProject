@@ -45,3 +45,9 @@ C:\Users\berka\source\repos\NLayer.Core\NLayer.WebApi\bin\Debug\net6.0\System.Te
 C:\Users\berka\source\repos\NLayer.Core\NLayer.WebApi\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\berka\source\repos\NLayer.Core\NLayer.WebApi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\berka\source\repos\NLayer.Core\NLayer.WebApi\obj\Debug\net6.0\NLayer.WebApi.csproj.CopyComplete
+C:\Users\berka\source\repos\NLayer.Core\NLayer.WebApi\bin\Debug\net6.0\Npgsql.dll
+C:\Users\berka\source\repos\NLayer.Core\NLayer.WebApi\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\berka\source\repos\NLayer.Core\NLayer.WebApi\bin\Debug\net6.0\NLayer.Core.dll
+C:\Users\berka\source\repos\NLayer.Core\NLayer.WebApi\bin\Debug\net6.0\NLayer.Repository.dll
+C:\Users\berka\source\repos\NLayer.Core\NLayer.WebApi\bin\Debug\net6.0\NLayer.Repository.pdb
+C:\Users\berka\source\repos\NLayer.Core\NLayer.WebApi\bin\Debug\net6.0\NLayer.Core.pdb

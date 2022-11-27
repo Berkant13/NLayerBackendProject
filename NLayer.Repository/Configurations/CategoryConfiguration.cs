@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using NLayer.Core;
+using NLayer.Core.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,11 +14,11 @@ namespace NLayer.Repository.Configurations
         //onmodelcreating de yaptıgımız aynı işlemleri buradada yapabiliriz.
         public void Configure(EntityTypeBuilder<Category> builder)
         {
-            builder.HasKey(x => x.Id);
+          
             builder.Property(x => x.CategoryName).IsRequired().HasMaxLength(50);
             
 
-            throw new NotImplementedException();
+            
         }
     }
 }

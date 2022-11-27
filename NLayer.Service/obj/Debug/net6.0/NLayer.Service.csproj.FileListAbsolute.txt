@@ -12,3 +12,6 @@ C:\Users\berka\source\repos\NLayer.Core\NLayer.Service\obj\Debug\net6.0\NLayer.S
 C:\Users\berka\source\repos\NLayer.Core\NLayer.Service\obj\Debug\net6.0\ref\NLayer.Service.dll
 C:\Users\berka\source\repos\NLayer.Core\NLayer.Service\bin\Debug\net6.0\NLayer.Service.runtimeconfig.json
 C:\Users\berka\source\repos\NLayer.Core\NLayer.Service\obj\Debug\net6.0\NLayer.Service.genruntimeconfig.cache
+C:\Users\berka\source\repos\NLayer.Core\NLayer.Service\bin\Debug\net6.0\NLayer.Core.dll
+C:\Users\berka\source\repos\NLayer.Core\NLayer.Service\bin\Debug\net6.0\NLayer.Core.pdb
+C:\Users\berka\source\repos\NLayer.Core\NLayer.Service\obj\Debug\net6.0\NLayer.Service.csproj.CopyComplete
