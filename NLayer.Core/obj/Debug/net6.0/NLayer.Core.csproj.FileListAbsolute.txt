@@ -12,3 +12,17 @@ C:\Users\berka\source\repos\NLayer.Core\NLayer.Core\obj\Debug\net6.0\NLayer.Core
 C:\Users\berka\source\repos\NLayer.Core\NLayer.Core\obj\Debug\net6.0\ref\NLayer.Core.dll
 C:\Users\berka\source\repos\NLayer.Core\NLayer.Core\bin\Debug\net6.0\NLayer.Core.runtimeconfig.json
 C:\Users\berka\source\repos\NLayer.Core\NLayer.Core\obj\Debug\net6.0\NLayer.Core.genruntimeconfig.cache
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Core\bin\Debug\net6.0\NLayer.Core.deps.json
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Core\bin\Debug\net6.0\NLayer.Core.runtimeconfig.json
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Core\bin\Debug\net6.0\NLayer.Core.dll
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Core\bin\Debug\net6.0\NLayer.Core.pdb
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Core\obj\Debug\net6.0\NLayer.Core.csproj.AssemblyReference.cache
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Core\obj\Debug\net6.0\NLayer.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Core\obj\Debug\net6.0\NLayer.Core.AssemblyInfoInputs.cache
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Core\obj\Debug\net6.0\NLayer.Core.AssemblyInfo.cs
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Core\obj\Debug\net6.0\NLayer.Core.csproj.CoreCompileInputs.cache
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Core\obj\Debug\net6.0\NLayer.Core.dll
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Core\obj\Debug\net6.0\refint\NLayer.Core.dll
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Core\obj\Debug\net6.0\NLayer.Core.pdb
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Core\obj\Debug\net6.0\NLayer.Core.genruntimeconfig.cache
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Core\obj\Debug\net6.0\ref\NLayer.Core.dll

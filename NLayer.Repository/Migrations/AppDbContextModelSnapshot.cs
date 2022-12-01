@@ -22,7 +22,7 @@ namespace NLayer.Repository.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("NLayer.Core.Category", b =>
+            modelBuilder.Entity("NLayer.Core.Model.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -36,10 +36,10 @@ namespace NLayer.Repository.Migrations
                         .HasColumnType("character varying(50)");
 
                     b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("timestamp without time zone");
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<DateTime?>("UpdatedDate")
-                        .HasColumnType("timestamp without time zone");
+                        .HasColumnType("timestamp with time zone");
 
                     b.HasKey("Id");
 
@@ -66,7 +66,7 @@ namespace NLayer.Repository.Migrations
                         });
                 });
 
-            modelBuilder.Entity("NLayer.Core.Product", b =>
+            modelBuilder.Entity("NLayer.Core.Model.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -78,7 +78,7 @@ namespace NLayer.Repository.Migrations
                         .HasColumnType("integer");
 
                     b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("timestamp without time zone");
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("numeric");
@@ -92,7 +92,7 @@ namespace NLayer.Repository.Migrations
                         .HasColumnType("integer");
 
                     b.Property<DateTime?>("UpdatedDate")
-                        .HasColumnType("timestamp without time zone");
+                        .HasColumnType("timestamp with time zone");
 
                     b.HasKey("Id");
 
@@ -105,7 +105,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 1,
                             CategoryID = 1,
-                            CreatedDate = new DateTime(2022, 11, 27, 14, 47, 5, 288, DateTimeKind.Local).AddTicks(423),
+                            CreatedDate = new DateTime(2022, 11, 30, 17, 9, 9, 883, DateTimeKind.Local).AddTicks(9335),
                             Price = 100m,
                             ProductName = "Kalem 1",
                             Stock = 20
@@ -114,7 +114,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 2,
                             CategoryID = 1,
-                            CreatedDate = new DateTime(2022, 11, 27, 14, 47, 5, 288, DateTimeKind.Local).AddTicks(431),
+                            CreatedDate = new DateTime(2022, 11, 30, 17, 9, 9, 883, DateTimeKind.Local).AddTicks(9353),
                             Price = 100m,
                             ProductName = "Kalem 2",
                             Stock = 20
@@ -123,7 +123,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 3,
                             CategoryID = 1,
-                            CreatedDate = new DateTime(2022, 11, 27, 14, 47, 5, 288, DateTimeKind.Local).AddTicks(432),
+                            CreatedDate = new DateTime(2022, 11, 30, 17, 9, 9, 883, DateTimeKind.Local).AddTicks(9356),
                             Price = 100m,
                             ProductName = "Kalem 3",
                             Stock = 20
@@ -132,7 +132,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 4,
                             CategoryID = 2,
-                            CreatedDate = new DateTime(2022, 11, 27, 14, 47, 5, 288, DateTimeKind.Local).AddTicks(433),
+                            CreatedDate = new DateTime(2022, 11, 30, 17, 9, 9, 883, DateTimeKind.Local).AddTicks(9358),
                             Price = 100m,
                             ProductName = "Kitap 1",
                             Stock = 20
@@ -141,7 +141,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 5,
                             CategoryID = 2,
-                            CreatedDate = new DateTime(2022, 11, 27, 14, 47, 5, 288, DateTimeKind.Local).AddTicks(436),
+                            CreatedDate = new DateTime(2022, 11, 30, 17, 9, 9, 883, DateTimeKind.Local).AddTicks(9360),
                             Price = 100m,
                             ProductName = "Kitap 2",
                             Stock = 20
@@ -150,14 +150,14 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 6,
                             CategoryID = 2,
-                            CreatedDate = new DateTime(2022, 11, 27, 14, 47, 5, 288, DateTimeKind.Local).AddTicks(437),
+                            CreatedDate = new DateTime(2022, 11, 30, 17, 9, 9, 883, DateTimeKind.Local).AddTicks(9362),
                             Price = 100m,
                             ProductName = "Kitap 3",
                             Stock = 20
                         });
                 });
 
-            modelBuilder.Entity("NLayer.Core.ProductFeature", b =>
+            modelBuilder.Entity("NLayer.Core.Model.ProductFeature", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -185,9 +185,9 @@ namespace NLayer.Repository.Migrations
                     b.ToTable("ProductFeatures");
                 });
 
-            modelBuilder.Entity("NLayer.Core.Product", b =>
+            modelBuilder.Entity("NLayer.Core.Model.Product", b =>
                 {
-                    b.HasOne("NLayer.Core.Category", "Category")
+                    b.HasOne("NLayer.Core.Model.Category", "Category")
                         .WithMany("Products")
                         .HasForeignKey("CategoryID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -196,23 +196,23 @@ namespace NLayer.Repository.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("NLayer.Core.ProductFeature", b =>
+            modelBuilder.Entity("NLayer.Core.Model.ProductFeature", b =>
                 {
-                    b.HasOne("NLayer.Core.Product", "Product")
+                    b.HasOne("NLayer.Core.Model.Product", "Product")
                         .WithOne("ProductFeature")
-                        .HasForeignKey("NLayer.Core.ProductFeature", "ProductId")
+                        .HasForeignKey("NLayer.Core.Model.ProductFeature", "ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("NLayer.Core.Category", b =>
+            modelBuilder.Entity("NLayer.Core.Model.Category", b =>
                 {
                     b.Navigation("Products");
                 });
 
-            modelBuilder.Entity("NLayer.Core.Product", b =>
+            modelBuilder.Entity("NLayer.Core.Model.Product", b =>
                 {
                     b.Navigation("ProductFeature");
                 });

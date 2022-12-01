@@ -1143,6 +1143,7 @@
     "net6.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
+      "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
       "NLayer.Core >= 1.0.0",
       "Npgsql >= 7.0.0",
@@ -1150,19 +1151,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\berka\\.nuget\\packages\\": {}
+    "C:\\Users\\berkantsubasi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\berka\\source\\repos\\NLayer.Core\\NLayer.Service\\NLayer.Service.csproj",
+      "projectUniqueName": "D:\\Profiles\\berkantsubasi\\Desktop\\NLayerBackendProject-main\\NLayer.Service\\NLayer.Service.csproj",
       "projectName": "NLayer.Service",
-      "projectPath": "C:\\Users\\berka\\source\\repos\\NLayer.Core\\NLayer.Service\\NLayer.Service.csproj",
-      "packagesPath": "C:\\Users\\berka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\berka\\source\\repos\\NLayer.Core\\NLayer.Service\\obj\\",
+      "projectPath": "D:\\Profiles\\berkantsubasi\\Desktop\\NLayerBackendProject-main\\NLayer.Service\\NLayer.Service.csproj",
+      "packagesPath": "C:\\Users\\berkantsubasi\\.nuget\\packages\\",
+      "outputPath": "D:\\Profiles\\berkantsubasi\\Desktop\\NLayerBackendProject-main\\NLayer.Service\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\berka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\berkantsubasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1176,8 +1182,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\berka\\source\\repos\\NLayer.Core\\NLayer.Core\\NLayer.Core.csproj": {
-              "projectPath": "C:\\Users\\berka\\source\\repos\\NLayer.Core\\NLayer.Core\\NLayer.Core.csproj"
+            "D:\\Profiles\\berkantsubasi\\Desktop\\NLayerBackendProject-main\\NLayer.Core\\NLayer.Core.csproj": {
+              "projectPath": "D:\\Profiles\\berkantsubasi\\Desktop\\NLayerBackendProject-main\\NLayer.Core\\NLayer.Core.csproj"
             }
           }
         }
@@ -1197,6 +1203,12 @@
             "version": "[12.0.0, )"
           },
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.0, )"
           },

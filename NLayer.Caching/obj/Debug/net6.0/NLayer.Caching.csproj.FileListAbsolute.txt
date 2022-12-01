@@ -12,3 +12,17 @@ C:\Users\berka\source\repos\NLayer.Core\NLayer.Caching\obj\Debug\net6.0\refint\N
 C:\Users\berka\source\repos\NLayer.Core\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.pdb
 C:\Users\berka\source\repos\NLayer.Core\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.genruntimeconfig.cache
 C:\Users\berka\source\repos\NLayer.Core\NLayer.Caching\obj\Debug\net6.0\ref\NLayer.Caching.dll
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Caching\bin\Debug\net6.0\NLayer.Caching.deps.json
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Caching\bin\Debug\net6.0\NLayer.Caching.runtimeconfig.json
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Caching\bin\Debug\net6.0\NLayer.Caching.dll
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Caching\bin\Debug\net6.0\NLayer.Caching.pdb
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.csproj.AssemblyReference.cache
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.AssemblyInfoInputs.cache
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.AssemblyInfo.cs
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.csproj.CoreCompileInputs.cache
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.dll
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Caching\obj\Debug\net6.0\refint\NLayer.Caching.dll
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.pdb
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Caching\obj\Debug\net6.0\NLayer.Caching.genruntimeconfig.cache
+D:\Profiles\berkantsubasi\Desktop\NLayerBackendProject-main\NLayer.Caching\obj\Debug\net6.0\ref\NLayer.Caching.dll
