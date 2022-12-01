@@ -20,9 +20,25 @@ namespace NLayer.API.Controllers
         [HttpGet]
         public async Task<IActionResult> All()
         {
-                var products = await _service.GetAllAsync();
+            //Service reposuna gider ve getallasync fonksiyonunu kullanır.
+            //Daha sonrasında generic repoya gider istenilen fonksiyonu çalıştırır.
+            var products = await _service.GetAllAsync();
             var productsDtos = _mapper.Map<List<ProductDto>>(products.ToList());
             return CreateActionResult(CustomResponseDto<List<ProductDto>>.Success(200, productsDtos));
+        }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetID(int id)
+        {
+            var product = await _service.GetByIdAsync(id);
+            var productDto = _mapper.Map<ProductDto>(product);
+            return CreateActionResult(CustomResponseDto<ProductDto>.Success(200, productDto));
+        }
+        [HttpPost()]
+        public async Task<IActionResult> Save(ProductDto productDto)
+        {
+            var product = await _service.AddAsync(_mapper.Map <Product> (productDto));
+            var productsDto=_mapper.Map<ProductDto>(product);
+            return CreateActionResult(CustomResponseDto<ProductDto>.Success(200, productsDto));
         }
     }
 }
